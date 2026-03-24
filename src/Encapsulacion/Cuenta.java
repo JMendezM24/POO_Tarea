@@ -47,11 +47,7 @@ public class Cuenta {
 
     //Método para mostrar estado
     public void mostrar() {
-        System.out.println(
-            "Titular: " + titular + "\n" +
-            "Saldo: Q" + saldo + "\n" +
-            "----------------------"
-        );
+        System.out.println("Titular: " + titular + "\n" + "Saldo: Q" + saldo + "\n" + "----------------------");
     }
 
 }
