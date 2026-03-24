@@ -14,7 +14,7 @@ public class Main {
 		
 		System.out.println("\n===== EJERCICIO 1: PERSONA =====");
 		
-		//Crear objetos
+		//Creación de objetos
         Persona p1 = new Persona("Lara", "Croft", 29);
         Persona p2 = new Persona("John", "Espartan", 35);
         Persona p3 = new Persona("Leon", "Kennedy", 30);
@@ -31,7 +31,7 @@ public class Main {
 		
 		System.out.println("\n===== EJERCICIO 2: RECTÁNGULO =====");
 
-	    //Crear objetos
+	    //Creación de objetos
 	    Rectángulo r1 = new Rectángulo(5, 10);
 	    Rectángulo r2 = new Rectángulo(7, 6);
 
@@ -55,6 +55,20 @@ public class Main {
 	//MÉTODO EJERCICIO 3
 	private static void ejercicioProducto() {
 		
+		System.out.println("\n===== EJERCICIO 2: PRODUCTO =====");
+		
+		//Creación de objetos
+		Producto p1 = new Producto("A001", "Laptop", 6000);
+		Producto p2 = new Producto("A002", "Impresora", 2500);
+		
+		//Aplicar descuentos
+		p1.aplicarDescuento(25); //25%
+		p2.aplicarDescuento(10); //10%
+		
+		//Mostrar resultados
+		p1.mostrar();
+		p2.mostrar();
+
 	}
 	
 }

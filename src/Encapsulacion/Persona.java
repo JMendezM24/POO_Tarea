@@ -17,9 +17,6 @@ public class Persona {
 	
 	//Método para mostrar los datos
 	public void mostrar() {
-		System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
-        System.out.println("Edad: " + edad);
-        System.out.println("------------------------");
+		System.out.println("Nombre: " + nombre + "\n" + "Apellido: " + apellido + "\n" + "Edad: " + edad + "\n" + "------------------------");
 	}
 }
