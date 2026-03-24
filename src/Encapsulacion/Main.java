@@ -103,6 +103,11 @@ public class Main {
 		Libro l2 = new Libro ("B) Unity in Action", "Joseph Hocking", 250);
 		Libro l3 = new Libro ("C) Programming Games with Java", "John Horton", 460);
 		
+		//Mostrar los libros dados
+		l1.mostrar();
+		l2.mostrar();
+		l3.mostrar();
+		
 		//Mostrar resultados
 		System.out.println("Libro A es largo: " + l1.esLargo());
 	    System.out.println("Libro B es largo: " + l2.esLargo());
@@ -136,19 +141,28 @@ public class Main {
 	//MÉTODO EJERCICIO 7
 	private static void ejercicioFecha() {
 		
+		 System.out.println("\n===== EJERCICIO 7: FECHA =====");
+		 
+		 //Creación de los objetos
+		 Fecha f1 = new Fecha(27, 3, 2026);
+		 Fecha f2 = new Fecha(32, 1, 2026);
+		 Fecha f3 = new Fecha(15, 13, 2026);
+		 
+		 //Imprimir las fechas 
+		 System.out.println("---Fecha 1---");
+		 f1.mostrar();
+		 System.out.println("---Fecha 2---");
+		 f2.mostrar();
+		 System.out.println("---Fecha 3---");
+		 f3.mostrar();
+		 
+		 //Mostrar resultados
+		 System.out.println("Fecha 1: " + f1.esValida());
+		 System.out.println("Fecha 2: " + f2.esValida());
+		 System.out.println("Fecha 3: " + f3.esValida());
+
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 }
