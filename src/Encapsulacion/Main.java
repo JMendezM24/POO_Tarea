@@ -7,6 +7,7 @@ public class Main {
 		ejercicioPersona();
 		ejercicioRectangulo();
 		ejercicioProducto();
+		ejercicioCuenta();
 	}
 
 	//MÉTODO EJERCICIO 1 
@@ -70,5 +71,24 @@ public class Main {
 		p2.mostrar();
 
 	}
+	
+	//MÉTODO EJERCICIO 4
+	private static void ejercicioCuenta() {
+		
+		System.out.println("\n===== EJERCICIO 4: CUENTA =====");
+		
+		//Creación del objeto
+	    Cuenta c = new Cuenta("Juan Pérez", 1000);
+	    
+	    //Operaciones consecutivas 
+	    c.depositar(500);   // Operacion 1: ✔ válido
+	    c.retirar(300);     // Operacion 2: ✔ válido
+	    c.retirar(1500);    // Operacion 3: ❌ fondos insuficientes
+	    c.depositar(-50);   // Operacion 4 y final: ❌ inválido
+
+	    //Resultado final
+	    c.mostrar();
+	}
+	
 	
 }
