@@ -1,4 +1,4 @@
-\# POO - Encapsulacion en Java
+&#x20;# POO-Tarea --- Encapsulacion en Java
 
 
 
@@ -27,36 +27,6 @@ La encapsulacion permite proteger los datos de una clase usando atributos privad
 \* Implementar encapsulacion
 
 \* Mejorar la logica de programacion
-
-
-
-\---
-
-
-
-\## Estructura del proyecto
-
-
-
-src/
-
-└── Encapsulacion/
-
-├── Persona.java
-
-├── Rectangulo.java
-
-├── Producto.java
-
-├── Cuenta.java
-
-├── Libro.java
-
-├── Calculadora.java
-
-├── Fecha.java
-
-└── Main.java
 
 
 
@@ -217,54 +187,4 @@ Valida:
 
 
 \---
-
-
-
-\## Tecnologias
-
-
-
-\* Java
-
-
-
-\---
-
-
-
-\## Ejecucion
-
-
-
-1\. Clonar el repositorio
-
-2\. Abrir en un IDE
-
-3\. Ejecutar Main.java
-
-
-
-\---
-
-
-
-\## Autor
-
-
-
-Daniel Mendez
-
-
-
-\---
-
-
-
-\## Notas
-
-
-
-Proyecto enfocado en el aprendizaje de POO y encapsulacion en Java.
-
-
 
