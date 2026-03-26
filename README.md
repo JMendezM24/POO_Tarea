@@ -1,188 +1,186 @@
-# 📘 POO - Encapsulación en Java
+# \# POO - Encapsulación en Java
 
 # 
 
-# Este repositorio contiene una serie de ejercicios prácticos desarrollados en Java enfocados en el uso de Programación Orientada a Objetos (POO), especialmente el concepto de encapsulación.
+Este repositorio contiene ejercicios basicos de Programacion Orientada a Objetos (POO) en Java, enfocados en el uso de la encapsulacion.
 
 # 
 
-# La encapsulación consiste en proteger los datos de una clase y acceder a ellos mediante métodos (getters y setters), lo que permite mayor control, seguridad y organización del código.
+La encapsulacion permite proteger los datos de una clase usando atributos privados y acceder a ellos mediante metodos (getters y setters).
 
 # 
 
-# 🎯 Objetivos
-
-# Aplicar conceptos básicos de POO:
-
-# Clases y objetos
-
-# Atributos y métodos
-
-# Constructores
-
-# Implementar encapsulación
-
-# Practicar lógica de programación en Java
-
-# Mejorar la organización del código
-
-# 📂 Estructura del Proyecto
-
-# src/
-
-# &#x20;└── Encapsulacion/
-
-# &#x20;     ├── Persona.java
-
-# &#x20;     ├── Rectangulo.java
-
-# &#x20;     ├── Producto.java
-
-# &#x20;     ├── Cuenta.java
-
-# &#x20;     ├── Libro.java
-
-# &#x20;     ├── Calculadora.java
-
-# &#x20;     ├── Fecha.java
-
-# &#x20;     └── Main.java
-
-# 📚 Ejercicios
-
-# 👤 Clase Persona
-
-# Atributos: nombre, apellido, edad
-
-# Constructor con parámetros
-
-# Método mostrar()
+##### \---
 
 # 
 
-# Se crean 3 objetos y se muestran sus datos.
+#### \## Objetivos
 
 # 
 
-# 🔷 Clase Rectángulo
+\* Aplicar conceptos basicos de POO
 
-# Atributos: base, altura
+\* Practicar clases y objetos
 
-# Métodos:
+\* Usar constructores
 
-# area()
+\* Implementar encapsulacion
 
-# perimetro()
-
-# 
-
-# Se comparan dos rectángulos para determinar cuál tiene mayor área.
+\* Mejorar la logica de programacion
 
 # 
 
-# 🛒 Clase Producto
-
-# Atributos: código, nombre, precio
-
-# Método:
-
-# aplicarDescuento(double porcentaje)
+##### \---
 
 # 
 
-# Se aplican descuentos diferentes a dos productos.
+#### \## Ejercicios
 
 # 
 
-# 💳 Clase Cuenta
-
-# Atributos: titular, saldo
-
-# Métodos:
-
-# depositar(double monto)
-
-# retirar(double monto) (sin permitir saldo negativo)
+###### \### Clase Persona
 
 # 
 
-# Se realizan varias operaciones y se muestra el saldo final.
+\* Atributos: nombre, apellido, edad
+
+\* Metodo: mostrar()
+
+
+
+Se crean 3 objetos y se muestran sus datos.
+
+
+
+##### \---
 
 # 
 
-# 📖 Clase Libro
-
-# Atributos: título, autor, páginas
-
-# Método:
-
-# esLargo()
+###### \### Clase Rectangulo
 
 # 
 
-# Retorna true si el libro tiene más de 300 páginas.
+\* Atributos: base, altura
+
+\* Metodos: area() y perimetro()
+
+
+
+Se comparan dos rectangulos para ver cual tiene mayor area.
 
 # 
 
-# 🧮 Clase Calculadora
-
-# Métodos:
-
-# sumar
-
-# restar
-
-# multiplicar
-
-# dividir (validando división entre cero)
+##### \---
 
 # 
 
-# Se prueban operaciones básicas.
+###### \### Clase Producto
 
 # 
 
-# 📅 Clase Fecha
+\* Atributos: codigo, nombre, precio
 
-# Atributos: día, mes, año
+\* Metodo: aplicarDescuento(double porcentaje)
 
-# Método:
 
-# esValida()
 
-# 
-
-# Valida:
+Se aplican descuentos a dos productos.
 
 # 
 
-# Día entre 1 y 31
-
-# Mes entre 1 y 12
-
-# 🔒 Encapsulación aplicada
+##### \---
 
 # 
 
-# En las clases del proyecto:
+###### \### Clase Cuenta
 
 # 
 
-# Los atributos se declaran como private
+\* Atributos: titular, saldo
 
-# Se utilizan métodos get y set para acceder y modificar valores
+\* Metodos:
 
-# Se controlan datos inválidos (ejemplo: saldo negativo, fechas incorrectas)
+
+
+&#x20; \* depositar(double monto)
+
+&#x20; \* retirar(double monto)
+
+
+
+No se permite saldo negativo.
 
 # 
 
-# Esto permite:
+##### \---
 
 # 
 
-# Mayor seguridad
+###### \### Clase Libro
 
-# Código más mantenible
+# 
 
-# Mejor organización
+\* Atributos: titulo, autor, paginas
+
+\* Metodo: esLargo()
+
+
+
+Retorna true si tiene mas de 300 paginas.
+
+# 
+
+##### \---
+
+# 
+
+###### \### Clase Calculadora
+
+# 
+
+\* Metodos: sumar, restar, multiplicar, dividir
+
+
+
+Valida division entre cero.
+
+# 
+
+##### \---
+
+# 
+
+###### \### Clase Fecha
+
+# 
+
+\* Atributos: dia, mes, anio
+
+\* Metodo: esValida()
+
+
+
+Valida:
+
+
+
+\* Dia entre 1 y 31
+
+\* Mes entre 1 y 12
+
+# 
+
+##### \---
+
+# 
+
+###### \## Encapsulacion
+
+# 
+
+\* Atributos privados
+
+\* Uso de getters y setters
+
+\* Validacion de datos
 
