@@ -15,8 +15,21 @@ public class Persona {
 		this.edad = edad;
 	}
 	
+	//Getters y Setters
+	public String getNombre() {return nombre;}
+	public void setNombre(String nombre) {this.nombre = nombre;}
+
+	public String getApellido() {return apellido;}
+	public void setApellido(String apellido) {this.apellido = apellido;}
+
+	public int getEdad() {return edad;}
+	public void setEdad(int edad) {this.edad = edad;}
+
 	//Método para mostrar los datos
 	public void mostrar() {
-		System.out.println("Nombre: " + nombre + "\n" + "Apellido: " + apellido + "\n" + "Edad: " + edad + "\n" + "------------------------");
+		System.out.println("Nombre: " + nombre + 
+						   "\nApellido: " + apellido + 
+						   "\nEdad: " + edad + 
+						   "\n------------------------");
 	}
 }

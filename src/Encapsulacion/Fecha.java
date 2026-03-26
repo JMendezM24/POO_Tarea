@@ -17,29 +17,15 @@ public class Fecha {
 	
 	//Método para validar la fecha 
 	public boolean esValida() {
-		
-		//Validar dia
-		
-		if (dia < 1 || dia > 31) {
-			return false;
-		}
-		
-		//Validar mes
-		if (mes < 1 || mes > 12) {
-			return false;
-		}
-		
-		//Validar año
-		if (año < 0) {
-			return false;
-		}
-		
-		return true; //Si pasa todas las validaciones
+		return (dia >= 1 && dia <=31)
+			&& (mes >= 1 && mes <=12)
+			&& (año > 0);
 	}
 	
 	//Mostrar información
 	public void mostrar() {
-		System.out.println(dia + "/" + mes + "/" + año + "\n" + "----------------------" );	
+		System.out.println(dia + "/" + mes + "/" + año + 
+						   "\n----------------------" );	
 		}
 
 }

@@ -13,6 +13,13 @@ public class Rectángulo {
 		this.base = base;
 	}
 	
+	//Getters y Setters
+	public double getBase() {return base;}
+	public void setBase(double base) {this.base = base;}
+
+	public double getAltura() {return altura;}
+	public void setAltura(double altura) {this.altura = altura;}
+	
 	//Método para calcular el  área
 	public double area() {
 		return base * altura;
@@ -25,12 +32,10 @@ public class Rectángulo {
 	
 	//Método para mostrar toda la información
     public void mostrar() {
-        System.out.println("Base: " + base);
-        System.out.println("Altura: " + altura);
-        System.out.println("Área: " + area());          
-        System.out.println("Perímetro: " + perimetro());
-        System.out.println("----------------------");
+        System.out.println("Base: " + base + 
+        				   "\nAltura: " + altura +
+        				   "\nÁrea: " + area() +
+        				   "\nPerímetro: " + perimetro() +
+        				   "\n----------------------");
     }
-
-
 }
