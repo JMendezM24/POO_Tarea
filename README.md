@@ -24,6 +24,7 @@ La encapsulacion permite proteger los datos de una clase usando atributos privad
 * Metodo: mostrar()
 
 Se crean 3 objetos y se muestran sus datos.
+Se agregó como extra un get y set de prueba en el Main (está comentado). 
 
 ---
 
@@ -83,6 +84,7 @@ Valida:
 
 * Dia entre 1 y 31
 * Mes entre 1 y 12
+* Año que no sea negativo
 
 ---
 
@@ -93,27 +95,3 @@ Valida:
 * Validacion de datos
 
 ---
-
-## Tecnologias
-
-* Java
-
----
-
-## Ejecucion
-
-1. Clonar el repositorio
-2. Abrir en un IDE
-3. Ejecutar Main.java
-
----
-
-## Autor
-
-Daniel Mendez
-
----
-
-## Notas
-
-Proyecto enfocado en el aprendizaje de POO y encapsulacion en Java.
